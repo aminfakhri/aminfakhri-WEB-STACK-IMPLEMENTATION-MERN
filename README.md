@@ -83,7 +83,7 @@ Now browse by either Public DNS name or Ip address with port 5000
 
 ![browser](https://user-images.githubusercontent.com/96633325/226422101-e84b48cf-6b9e-4f57-a0b2-b2bf17322dd0.PNG)
 
-#Routes
+#Step-3  Routes
 
 There are three actions that our To-Do application needs to be able to do:
 
@@ -102,4 +102,42 @@ see steps below
 
 
 ![create api js](https://user-images.githubusercontent.com/96633325/226423972-cd51ad42-4980-41cb-86e9-bc7865370d86.PNG)
+
+#MODELS
+
+To create schema and model, we have to install mangoose which is Node.js package that making with mangodb easier
+Now get back to Todo directory and then install mangoose
+   npm install mangoose 
+   
+create new folder models
+  mkdir models
+get into directory by
+  cd models
+inside the directory models create file todo.js
+   touch todo.js
+   
+ 
+![install mangoose and create todo js](https://user-images.githubusercontent.com/96633325/226432638-18fb476e-e8f4-4980-ae8b-8b630efe6165.PNG)
+
+
+Now we need to update our routes from the file api.js in ‘routes’ directory to make use of the new model.
+
+![update routes](https://user-images.githubusercontent.com/96633325/226433478-af7001ca-9830-4265-833d-52e98da3f05c.PNG)
+
+#STEP 4 - MONGODB DATABASE
+
+
+![mangodb](https://user-images.githubusercontent.com/96633325/226439381-28b22b70-88f2-4e85-84ca-073010faff25.PNG)
+
+then click on cluster and click on collection and then add myown data
+
+
+
+![add myown data](https://user-images.githubusercontent.com/96633325/226439956-f6bf27cd-3ef7-47ba-85a5-d080849f2803.PNG)
+
+In the index.js file, we specified process.env to access environment variables, but we have not yet created this file. So we need 
+to do that now.
+
+Create a file in your Todo directory and name it .env.
+
 
