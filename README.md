@@ -1,11 +1,11 @@
-﻿Step - 0 
+#Step - 0 
 prepare ubuntu hvm 22.04 instance with update package and upgraded used t2.nano type instance.
 
 ![deploy the instance through terraform](https://user-images.githubusercontent.com/96633325/226395866-b3e54fbc-eae0-498b-af19-2163a9367617.PNG)
 
 
 
-STEP 1 - BACKEND CONFIGURATION
+#STEP 1 - BACKEND CONFIGURATION
 
   UPDATE UBUNTU
     sudo apt update
@@ -45,7 +45,7 @@ after running the command. You can press Enter several times to accept default v
 
 npm init
 
-Step 2 - INSTALL EXPRESSJS
+#Step 2 - INSTALL EXPRESSJS
 
 To use express, install it using npm
   npm install express
@@ -83,7 +83,8 @@ Now browse by either Public DNS name or Ip address with port 5000
 
 ![browser](https://user-images.githubusercontent.com/96633325/226422101-e84b48cf-6b9e-4f57-a0b2-b2bf17322dd0.PNG)
 
-Routes
+#Routes
+
 There are three actions that our To-Do application needs to be able to do:
 
 1. Create a new task
