@@ -140,4 +140,10 @@ to do that now.
 
 Create a file in your Todo directory and name it .env.
 
+then add in the file 
+DB = mongodb+srv://<username>:<password>@<network-access>.lx2pegb.mongodb.net/?retryWrites=true&w=majority
 
+check the connection api get or post through POSTMAN
+
+
+![check connection using postman](https://user-images.githubusercontent.com/96633325/226459587-38c3f89b-cec4-4276-bb67-df17ed9fac06.PNG)
