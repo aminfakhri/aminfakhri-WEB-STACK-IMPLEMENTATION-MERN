@@ -191,7 +191,7 @@ Configure Proxy in package.json
      
    Add the key value pair in the package.json file "proxy": "http://localhost:5001".
 The whole purpose of adding the proxy configuration in number 3 above is to make it possible to access the application directly 
-from the browser by simply calling the server url like http://localhost:5000 rather than always including the entire path like
+from the browser by simply calling the server url like http://localhost:5001 rather than always including the entire path like
 http://localhost:5001/api/todos
 
 ![add proxy](https://user-images.githubusercontent.com/96633325/227269794-e513419a-dfe0-411c-977d-3d724dc99f47.PNG)
@@ -202,7 +202,7 @@ Now, ensure you are inside the Todo directory, and simply do:
 npm run dev
 ```
 
-Your app should open and start running on localhost:3000
+Your app should open and start running on localhost:5001
 
 Important note: In order to be able to access the application from the Internet you have to open TCP port 3000 on EC2 by adding a 
 new Security Group rule. You already know how to do it.
